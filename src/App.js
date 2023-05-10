@@ -17,7 +17,7 @@ function App() {
 	};
 
 	return (
-		<div className="min-h-screen">
+		<div className="min-h-screen w-screen">
 			<Header />
 			<main
 				style={{ minHeight: "calc(100vh - 3rem)" }}
@@ -39,7 +39,10 @@ function App() {
             max-w-sm`}
 					>
 						<div className="flex justify-start mb-2">
-							<button className="text-bold" onClick={closePopup}>
+							<button
+								className="text-bold"
+								onClick={closePopup}
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="16"
